@@ -4,3 +4,6 @@
 
 ## BarChart
 <img src="https://github.com/dinhtho/MpChartCustom/blob/master/image1.png" width="500"/>
+
+## PieChart
+<img src="https://github.com/dinhtho/MpChartCustom/blob/master/image2.png" width="500"/>

@@ -1,6 +1,7 @@
 
 package com.example.pcpv.mpchartline;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -38,6 +39,9 @@ public class BarChartActivity extends AppCompatActivity {
         configureLegend();
         provideDataToChart();
         chart.invalidate();
+
+        findViewById(R.id.bt_pieChart).setOnClickListener(view -> startActivity(
+                new Intent(BarChartActivity.this, PieChartActivity.class)));
     }
 
     private void configureChart() {
